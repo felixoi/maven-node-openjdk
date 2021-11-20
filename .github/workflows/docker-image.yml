@@ -37,5 +37,5 @@ jobs:
           push: true
           tags: felixoi/openjdk-maven-node:${{ matrix.openjdk }}-${{ matrix.maven }}-${{ matrix.node }}
           build-args: |
-            MAVEN=${{ matrix.maven }}-openjdk-${{ matrix.openjdk }}-slim
+            MAVEN=${{ matrix.maven }}-openjdk-${{ matrix.openjdk }}
             NODE=${{ matrix.node }}
