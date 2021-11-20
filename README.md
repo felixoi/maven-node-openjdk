@@ -1,1 +1,1 @@
-# maven-node-openjdk
+# openjdk-maven-node
